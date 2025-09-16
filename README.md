@@ -1,31 +1,57 @@
 # fuel-pass-frontend
 
 A modern, responsive Next.js frontend application for managing fuel orders in aviation operations. Built with TypeScript, Tailwind CSS, and state-of-the-art development practices.
+
 🚀 Features
+
 Role-Based Access Control: Separate interfaces for Aircraft Operators and Operations Managers
+
 Real-time Order Management: Create, view, and update fuel orders with live status tracking
+
 Responsive Design: Mobile-first approach with Tailwind CSS
+
 Type Safety: Full TypeScript implementation with Zod validation
+
 State Management: Zustand for efficient client-side state management
+
 Authentication: JWT-based authentication with HTTP-only cookies
+
 Toast Notifications: User-friendly feedback with react-hot-toast
+
 Form Validation: Comprehensive form validation with react-hook-form and Zod
+
 🛠️ Tech Stack
+
 Framework: Next.js 15.5.3 (App Router)
+
 Language: TypeScript
+
 Styling: Tailwind CSS
+
 State Management: Zustand
+
 Form Handling: React Hook Form + Zod
+
 HTTP Client: Axios
+
 Icons: Lucide React
+
 Notifications: React Hot Toast
+
 Date Handling: date-fns
+
 📋 Prerequisites
+
 Before you begin, ensure you have the following installed:
+
 Node.js (v18.0 or higher)
+
 npm (v8.0 or higher) or yarn
+
 Git
+
 🚀 Getting Started
+
 1. Clone the Repository
    
    git clone https://github.com/ZaidSultan10/fuel-pass-frontend.git
@@ -41,13 +67,21 @@ Create a .env.local file in the root directory:
 7. Start the Development Server
 The application will be available at http://localhost:3000
 8. Build for Production
+
 📁 Project Structure
+
 �� Authentication & Authorization
+
 The application supports two user roles:
+
 Aircraft Operator
+
 Submit new fuel orders
+
 View their own orders
+
 Limited to order creation functionality
+
 Operations Manager
 View all fuel orders
 Update order statuses
