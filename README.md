@@ -83,102 +83,201 @@ View their own orders
 Limited to order creation functionality
 
 Operations Manager
+
 View all fuel orders
+
 Update order statuses
+
 Access dashboard with statistics
+
 Filter and search orders
+
 📱 User Interface
+
 Dashboard
+
 Statistics Cards: Total orders, pending, confirmed, and completed orders
+
 Recent Orders: Latest 5 orders with quick actions
+
 Role-based Access: Different views based on user permissions
+
 Order Management
+
 Order Form: Comprehensive form for creating new fuel orders
+
 Order List: Paginated list with filtering and search capabilities
+
 Order Details: Detailed view with status update functionality
+
 Responsive Design
+
 Mobile-first approach
+
 Tablet and desktop optimized
+
 Touch-friendly interface
+
 🔧 API Integration
+
 The frontend integrates with a Spring Boot backend:
+
 Base URL: http://localhost:8080
+
 Authentication: JWT tokens with HTTP-only cookies
+
 Endpoints: RESTful API for all operations
+
 Error Handling: Comprehensive error handling with user feedback
+
 🎨 Styling & Theming
+
 Tailwind CSS: Utility-first CSS framework
+
 Custom Components: Reusable UI components
+
 Responsive Design: Mobile-first responsive layout
+
 Dark Mode Ready: Prepared for dark mode implementation
+
 📊 State Management
+
 Auth Store (Zustand)
+
 User authentication state
+
 Login/logout functionality
+
 Role-based access control
+
 Persistent storage
+
 Fuel Order Store (Zustand)
+
 Order data management
+
 CRUD operations
+
 Filtering and pagination
+
 Statistics tracking
+
 🧪 Development
+
 Available Scripts
+
 Code Quality
+
 ESLint: Code linting and style enforcement
+
 TypeScript: Static type checking
+
 Prettier: Code formatting
+
 Husky: Git hooks for quality assurance
+
 �� Deployment
+
 Vercel (Recommended)
+
 Connect your GitHub repository to Vercel
+
 Configure environment variables
+
 Deploy automatically on push to main branch
+
 Other Platforms
+
 The application can be deployed to any platform that supports Next.js:
+
 Netlify
+
 AWS Amplify
+
 Railway
+
 DigitalOcean App Platform
+
 🔧 Configuration
+
 Environment Variables
+
 Variable	Description	Default
+
 NEXT_PUBLIC_API_URL	Backend API URL	http://localhost:8080
+
 PORT	Development server port	3000
+
 Next.js Configuration
+
 The project uses Next.js 15.5.3 with:
+
 App Router (recommended)
+
 Turbopack for faster development
+
 TypeScript support
+
 Tailwind CSS integration
+
 🤝 Contributing
+
 Fork the repository
+
 Create a feature branch (git checkout -b feature/amazing-feature)
+
 Commit your changes (git commit -m 'Add some amazing feature')
+
 Push to the branch (git push origin feature/amazing-feature)
+
 Open a Pull Request
+
 📝 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 🆘 Support
+
 If you encounter any issues or have questions:
+
 Check the Issues page
+
 Create a new issue with detailed information
+
 Contact the development team
+
 🔄 Backend Integration
+
 This frontend is designed to work with a Spring Boot backend. Ensure the backend is running on the configured API URL before starting the frontend.
+
 Backend Requirements
+
 Spring Boot 3.x
+
 PostgreSQL database
+
 JWT authentication
+
 CORS configuration for frontend domain
+
 📈 Performance
+
 Lazy Loading: Components and routes are lazy-loaded
+
 Image Optimization: Next.js automatic image optimization
+
 Code Splitting: Automatic code splitting for optimal bundle sizes
+
 Caching: Efficient caching strategies for API calls
+
 �� Security
+
 HTTP-Only Cookies: Secure token storage
+
 CORS Configuration: Proper cross-origin resource sharing
+
 Input Validation: Client and server-side validation
+
 XSS Protection: Built-in Next.js security features
+
 Built with ❤️ using Next.js and modern web technologies
